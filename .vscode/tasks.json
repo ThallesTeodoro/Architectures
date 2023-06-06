@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/cqrs-with-mediator/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj",
+                "${workspaceFolder}/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/cqrs-with-mediator/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj",
+                "${workspaceFolder}/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/cqrs-with-mediator/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj"
+                "${workspaceFolder}/source/CqrsMediator.Presentation/CqrsMediator.Presentation.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
